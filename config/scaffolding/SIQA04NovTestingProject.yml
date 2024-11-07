@@ -20,11 +20,11 @@ services:
     version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
-- serviceName: pub.flow:debugLog
+- serviceName: pub.json:documentToJSONString
   packages:
   - name: WmPublic
     version: 11.1.0.0.2015
-- serviceName: pub.json:documentToJSONString
+- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.1.0.0.2015
