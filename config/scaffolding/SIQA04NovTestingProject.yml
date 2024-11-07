@@ -24,6 +24,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2015
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
