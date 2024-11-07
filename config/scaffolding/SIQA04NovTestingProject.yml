@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/siqagituser
   gitUsername: siqagituser
   gitBranch: main
+- name: SIQA_OriginTest_OnPremAssets
+  gitServerName: SIQA_kvv
+  gitUrl: https://github.com/vijetadixit
+  gitUsername: karthik-v2k
+  gitBranch: Test
 services:
 - serviceName: project.siqa04novtesting.integrations:Alerts
   packages:
