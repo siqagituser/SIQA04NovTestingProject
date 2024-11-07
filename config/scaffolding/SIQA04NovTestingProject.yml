@@ -14,6 +14,12 @@ packages:
   gitUsername: karthik-v2k
   gitBranch: Test
 services:
+- serviceName: project.siqa04novtesting.integrations:Alerts
+  packages:
+  - name: SIQA04NovTestingProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 - serviceName: project.siqa04novtesting.integrations:DAF1
   packages:
   - name: SIQA04NovTestingProject
