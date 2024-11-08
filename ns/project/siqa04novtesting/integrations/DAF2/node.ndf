@@ -25,14 +25,14 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">Student_doc_ref</value>
+          <value name="field_name">TPPDoc</value>
           <value name="field_type">recref</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
           <value name="modifiable">true</value>
-          <value name="rec_ref">project.siqa04novtesting.documenttypes:student</value>
+          <value name="rec_ref">Map_1:DocType</value>
         </record>
       </array>
       <value name="modifiable">true</value>
@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1731069835537</value>
+    <value name="lastModifiedDate">1731075865176</value>
     <value name="displayName">DAF2</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -113,11 +113,6 @@
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">1</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
