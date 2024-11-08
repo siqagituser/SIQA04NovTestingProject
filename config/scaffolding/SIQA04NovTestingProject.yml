@@ -14,7 +14,7 @@ packages:
   gitUsername: karthik-v2k
   gitBranch: Test
 services:
-- serviceName: project.siqa04novtesting.integrations:DAF1
+- serviceName: project.siqa04novtesting.integrations:DAF2
   packages:
   - name: SIQA04NovTestingProject
     version: "1.0"
