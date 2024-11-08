@@ -14,26 +14,16 @@ packages:
   gitUsername: karthik-v2k
   gitBranch: Test
 services:
-- serviceName: project.siqa04novtesting.integrations:Alerts
+- serviceName: project.siqa04novtesting.integrations:date_daf
   packages:
   - name: SIQA04NovTestingProject
     version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
-- serviceName: project.siqa04novtesting.integrations:DAF1
-  packages:
-  - name: SIQA04NovTestingProject
-    version: "1.0"
-  - name: SIQA_OriginTest_OnPremAssets
-    version: "1.0"
-- serviceName: pub.json:documentToJSONString
+- serviceName: pub.date:getCurrentDateString
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2015
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
+    version: 11.1.0.0.2017
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
