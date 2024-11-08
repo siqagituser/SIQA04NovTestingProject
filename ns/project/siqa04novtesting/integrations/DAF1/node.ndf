@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1731069765131</value>
+    <value name="lastModifiedDate">1731069835537</value>
     <value name="displayName">DAF1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -82,7 +82,7 @@
           <value name="serviceName">pub.json:documentToJSONString</value>
           <value name="transformerSupport">true</value>
         </record>
-        <number name="ui_step_index" type="Long">2</number>
+        <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
