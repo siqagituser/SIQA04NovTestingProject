@@ -28,12 +28,6 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2017
-- serviceName: project.siqa04novtesting.integrations:DAF2
-  packages:
-  - name: SIQA04NovTestingProject
-    version: "1.0"
-  - name: SIQA_OriginTest_OnPremAssets
-    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
