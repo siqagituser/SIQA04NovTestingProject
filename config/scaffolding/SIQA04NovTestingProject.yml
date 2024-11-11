@@ -14,17 +14,13 @@ packages:
   gitUsername: karthik-v2k
   gitBranch: Test
 services:
-- serviceName: project.siqa04novtesting.integrations:DAF1
+- serviceName: project.siqa04novtesting.integrations:SchemaValidateDAF
   packages:
   - name: SIQA04NovTestingProject
     version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
-- serviceName: pub.json:documentToJSONString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2017
-- serviceName: pub.flow:debugLog
+- serviceName: pub.schema:validate
   packages:
   - name: WmPublic
     version: 11.1.0.0.2017
