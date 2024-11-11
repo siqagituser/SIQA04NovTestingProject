@@ -369,8 +369,4 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-
-<INVOKE NAME="INTEGRATIONS" SERVICE="project.siqa04novtesting.integrations:DAF2">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
