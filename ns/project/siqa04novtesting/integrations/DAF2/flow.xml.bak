@@ -199,14 +199,14 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">Student_doc_ref</value>
+        <value name="field_name">TPPDoc</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.siqa04novtesting.documenttypes:student</value>
+        <value name="rec_ref">Map_1:DocType</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -216,7 +216,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Student_doc_ref;4;0;project.siqa04novtesting.documenttypes:student" TO="/document;2;0">
+<MAPCOPY FROM="/TPPDoc;4;0;Map_1:DocType" TO="/document;2;0">
 </MAPCOPY>
 </MAP>
 
@@ -333,14 +333,14 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">Student_doc_ref</value>
+        <value name="field_name">TPPDoc</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.siqa04novtesting.documenttypes:student</value>
+        <value name="rec_ref">Map_1:DocType</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
