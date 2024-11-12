@@ -139,7 +139,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Map_1:DocType</value>
+        <value name="rec_ref">Data_1:InputDoc</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -149,14 +149,14 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Doc_Ip;4;0;Map_1:DocType" TO="/object;3;0">
+<MAPCOPY FROM="/Doc_Ip;4;0;Data_1:InputDoc" TO="/object;3;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/conformsTo;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Map_1:DocType</value>
+  <value name="xml">Data_1:InputDoc</value>
 </Values>
 </DATA>
 </MAPSET>
