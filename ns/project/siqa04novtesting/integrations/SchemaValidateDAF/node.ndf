@@ -84,7 +84,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1731475050619</value>
+    <value name="lastModifiedDate">1731475074223</value>
     <value name="displayName">SchemaValidateDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -134,7 +134,15 @@
           <Boolean name="enabled">true</Boolean>
         </record>
         <null name="outputMapSet"/>
-        <null name="mapSet"/>
+        <array name="mapSet" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="field">/conformsTo;1;0</value>
+            <value name="value">project.siqa04novtesting.documenttypes:student</value>
+            <Boolean name="variableSubstitution">false</Boolean>
+            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="globalVariables">false</Boolean>
+          </record>
+        </array>
         <number name="ui_step_index" type="Long">2</number>
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>

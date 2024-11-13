@@ -403,6 +403,15 @@
 
 <MAPCOPY FROM="/wmio_doc_ip;4;0;project.siqa04novtesting.documenttypes:student" TO="/object;3;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/conformsTo;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.siqa04novtesting.documenttypes:student</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="OUTPUT">
