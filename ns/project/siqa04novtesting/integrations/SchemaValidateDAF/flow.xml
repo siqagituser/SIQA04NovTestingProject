@@ -132,14 +132,14 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">TPP_Doc_Ip</value>
+        <value name="field_name">DocRef</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Data_1:InputDoc</value>
+        <value name="rec_ref">project.siqa04novtesting.documenttypes:Student</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -149,14 +149,14 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/TPP_Doc_Ip;4;0;Data_1:InputDoc" TO="/object;3;0">
+<MAPCOPY FROM="/DocRef;4;0;project.siqa04novtesting.documenttypes:Student" TO="/object;3;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/conformsTo;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Data_1:InputDoc</value>
+  <value name="xml">project.siqa04novtesting.documenttypes:Student</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -316,14 +316,14 @@
           <value name="field_usereditable">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">TPP_Doc_Ip</value>
+        <value name="field_name">DocRef</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">Data_1:InputDoc</value>
+        <value name="rec_ref">project.siqa04novtesting.documenttypes:Student</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
