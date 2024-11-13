@@ -25,7 +25,7 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">Doc_Ip</value>
+          <value name="field_name">TPP_Doc_Ip</value>
           <value name="field_type">recref</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -33,6 +33,25 @@
           <value name="is_global">false</value>
           <value name="modifiable">true</value>
           <value name="rec_ref">Data_1:InputDoc</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">wmio_doc_ip</value>
+          <value name="field_type">recref</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="modifiable">true</value>
+          <value name="rec_ref">project.siqa04novtesting.documenttypes:student</value>
         </record>
       </array>
       <value name="modifiable">true</value>
@@ -65,7 +84,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1731474868869</value>
+    <value name="lastModifiedDate">1731475033703</value>
     <value name="displayName">SchemaValidateDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -100,6 +119,27 @@
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Schema</value>
+          <value name="groupName">schema</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">validate</value>
+          <value name="serviceName">pub.schema:validate</value>
+          <Boolean name="enabled">true</Boolean>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
       </record>
     </record>
   </record>
