@@ -34,25 +34,6 @@
           <value name="modifiable">true</value>
           <value name="rec_ref">Data_1:InputDoc</value>
         </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">wmio_doc_ip</value>
-          <value name="field_type">recref</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-          <value name="modifiable">true</value>
-          <value name="rec_ref">project.siqa04novtesting.documenttypes:student</value>
-        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -84,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1731475074223</value>
+    <value name="lastModifiedDate">1731498723501</value>
     <value name="displayName">SchemaValidateDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -147,6 +128,9 @@
         <value name="nodePathNew">1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
